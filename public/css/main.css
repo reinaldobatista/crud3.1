@@ -1,0 +1,123 @@
+
+main{
+    width: 100%;
+    display: block;
+    height: 100%;
+    background: #f8f8f8;
+    width: calc(100% - 300px);
+}
+
+main .main-content{
+padding: 30px;
+width: 100%;
+height:calc(100% - 75px);
+overflow: auto;
+}
+
+.main-content .panel{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding: 20px;
+    margin: 10px ;
+}
+
+.panel-row{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+text-decoration: none;
+}
+.panel-row a{
+    width: 48%;
+    text-decoration: none;
+ }
+
+.panel-50{
+    width: 48%;
+    text-decoration: none;
+}
+
+.panel-50 a{
+    text-decoration: none;
+}
+.panel-row a button{
+    border: none;
+    text-decoration: none;
+    height: 180px;
+    width: 100%;
+    background: linear-gradient(135deg,#6e8efb,#a777e3);
+    color:#fff;
+}
+
+.panel-row a button:hover {
+    text-decoration: none;
+    transform:scale(1.05);
+    transition:0.2s;
+}
+
+.ajax-content{
+    width:135%;
+    height: 100%;
+    margin-top: 20px;
+}
+.ajax-content::-webkit-scrollbar-track
+{
+	
+	background-color: #ee2a2a;
+}
+
+.ajax-content::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #ee2a2a;
+}
+
+.ajax-content::-webkit-scrollbar-thumb
+{
+	background-color: rgb(53, 120, 221);
+	
+	background-image: -webkit-gradient(linear, 0 0, 0 100%,
+	                   color-stop(.5, rgba(255, 255, 255, .2)),
+					   color-stop(.5, transparent), to(transparent));
+}
+
+mainc{
+    width: 100%;
+    display: block;
+    height: 100%;
+    background: #f8f8f8;
+    /* background: linear-gradient(135deg,rgb(255, 255, 255),#b7a8f7); */
+    width: calc(100% - 300px);
+}
+
+mainc .main-cad-cadastro{
+    padding: 30px;
+    width: 100%;
+    height:calc(100% - 75px);
+    overflow: auto;
+    }
+
+.panel-cad-cadastro{
+padding: 40px;
+text-decoration: none;
+}
+
+.panel-cad-cadastro button{
+width: 100%;
+}
+
+.panel-cad-cadastro input{
+    background: linear-gradient(135deg,#ffffff,#949090cb);
+}
+.panel-cad-cadastro select{
+    
+    background: linear-gradient(135deg,#ffffff,#949090cb);
+}
+.panel-cad-cadastro textarea{
+    background: linear-gradient(135deg,#ffffff,#949090cb);
+}
+
